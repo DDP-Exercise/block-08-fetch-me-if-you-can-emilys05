@@ -3,9 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <style>
+        body { font-family: sans-serif; max-width: 700px; margin: 2rem auto; }
+        .user { border: 1px solid #ccc; border-radius: 6px; margin-bottom: 0.5rem; }
+        .user-header { padding: 0.6rem 1rem; cursor: pointer; display: flex; gap: 0.5rem; }
+        .user-header:hover { background: #f0f0f0; }
+        .user-username { color: #888; }
+        .user-details { padding: 0 1rem 1rem 1rem; }
+        .post { border-top: 1px solid #ddd; padding: 0.6rem 0; }
+        .comments-list { margin-top: 0.5rem; padding-left: 1rem; border-left: 2px solid #ddd; }
+        .hidden { display: none; }
+        button { cursor: pointer; }
+    </style>
 </head>
 <body>
 
-<script src="main.js" type="module"></script>
+<div id="app"></div>
+
+<script src="js/main.js" type="module"></script>
 </body>
 </html>
